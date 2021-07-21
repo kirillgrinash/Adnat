@@ -1,0 +1,8 @@
+@organisations.map do |org|
+  {
+    id: org.id,
+    name: org.name,
+    hourly_rate: org.hourly_rate,
+  }
+end
+
